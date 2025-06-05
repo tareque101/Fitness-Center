@@ -1,0 +1,181 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Home Section */
+#home {
+    background-color: #4CAF50;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#home button {
+    background-color: white;
+    color: #4CAF50;
+    padding: 12px 20px;
+    font-size: 18px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#home button:hover {
+    background-color: #ddd;
+}
+
+/* About Section */
+#about {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Services Section */
+#services {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#services h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    font-size: 24px;
+    color: #4CAF50;
+}
+
+.service p {
+    font-size: 18px;
+}
+
+/* BMI Calculator Section */
+#bmi {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#bmi h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#bmi form {
+    display: inline-block;
+    text-align: left;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#bmi label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#bmi input, #bmi select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+#bmi button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#bmi button:hover {
+    background-color: #45a049;
+}
+
+/* Team Section */
+#team {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#team h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.trainer {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+}
+
+.trainer h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
